@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tattva Crystal | Authentic Crystals, Zodiac Guides & Spiritual Jewellery</title>
+<meta name="description" content="Tattva Crystal: authentic crystal bracelets, pendants, rings and crystal trees. Find the crystals for your zodiac sign and connect with us on Instagram.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#17132E;--pearl:#F7F5FB;--am:#6D51DB;--qz:#EBBBCB;--ct:#E4B64F;--line:#DDD7EC;--mu:#6B6688;--serif:"Cormorant Garamond",Georgia,serif;--sans:Manrope,system-ui,-apple-system,"Segoe UI",sans-serif;--tick:44px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + var(--tick))}
+body{font:400 16px/1.65 var(--sans);color:var(--ink);background:var(--pearl);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.1}
+h2{font-size:clamp(2rem,5vw,3.2rem);margin-bottom:.6rem}
+:focus-visible{outline:2px solid var(--am);outline-offset:3px}
+.wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
+section{padding:clamp(3.5rem,8vw,6rem) 0}
+.lead{color:var(--mu);max-width:54ch}
+.btn{display:inline-block;padding:.8rem 1.6rem;border-radius:99px;background:var(--am);color:#fff;text-decoration:none;border:0;cursor:pointer;font:700 .92rem var(--sans);transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px);background:#5b40c4}
+.btn.ghost{background:transparent;border:1px solid currentColor}
+
+/* ticker */
+.ticker{position:sticky;top:0;z-index:61;background:linear-gradient(90deg,#3a2a7a,var(--ink) 60%);border-bottom:1px solid #4a3a8a;padding:10px 0;overflow:hidden;white-space:nowrap}
+.ticker .track{display:inline-flex;width:max-content;animation:tk 24s linear infinite}
+.ticker:hover .track{animation-play-state:paused}
+.tgroup{display:flex;align-items:center;flex-shrink:0}
+.titem{color:var(--ct);font-weight:700;font-size:clamp(11px,2.1vw,13.5px);letter-spacing:.3px;padding:0 22px;white-space:nowrap}
+.tdot{width:5px;height:5px;border-radius:50%;background:rgba(228,182,79,.55);flex-shrink:0}
+@keyframes tk{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.ticker .track{animation-duration:90s}}
+
+header{position:sticky;top:var(--tick);z-index:50;background:rgba(23,19,46,.96);backdrop-filter:blur(12px);color:#fff}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.nav .brand img{height:42px;width:auto}
+nav ul{display:flex;gap:1.6rem;list-style:none;padding:0}
+nav a{text-decoration:none;font-size:.9rem;font-weight:500;color:#dcd6f5}
+nav a:hover{color:var(--ct)}
+.burger{display:none;background:none;border:0;width:40px;height:40px;cursor:pointer}
+.burger span{display:block;width:22px;height:2px;background:#fff;margin:5px auto;transition:.3s}
+.burger.on span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger.on span:nth-child(2){opacity:0}
+.burger.on span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* hero */
+.hero{position:relative;background:radial-gradient(90% 80% at 75% 25%,#3a2a7a 0,var(--ink) 62%);color:#fff;padding:clamp(4rem,9vw,7rem) 0 clamp(3rem,6vw,4.5rem);overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:
+  radial-gradient(1px 1px at 12% 22%,#fff 100%,transparent),
+  radial-gradient(1px 1px at 70% 12%,#fff 100%,transparent),
+  radial-gradient(2px 2px at 85% 55%,var(--ct) 100%,transparent),
+  radial-gradient(1px 1px at 30% 75%,#fff 100%,transparent),
+  radial-gradient(1px 1px at 55% 45%,#fff 100%,transparent);
+  opacity:.55;pointer-events:none}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:2rem;align-items:center}
+.hero h1{font-size:clamp(2.6rem,7vw,5rem);margin-bottom:1rem}
+.hero p{color:#cfc8ee;max-width:46ch;margin-bottom:1.5rem}
+.hero .btn+.btn{margin-left:.6rem}
+.badges{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.7rem}
+.badges span{border:1px solid rgba(228,182,79,.45);color:var(--ct);font:600 .74rem var(--sans);letter-spacing:.04em;padding:.4rem .8rem;border-radius:99px;background:rgba(228,182,79,.06)}
+.gem{position:relative;height:min(400px,70vw);animation:fl 7s ease-in-out infinite}
+.gem i{position:absolute;inset:0;margin:auto;width:52%;height:88%;clip-path:polygon(50% 0,100% 30%,100% 70%,50% 100%,0 70%,0 30%);background:linear-gradient(135deg,#c9b8ff,#6D51DB 45%,#2a1d6b)}
+.gem i:nth-child(2){width:36%;height:60%;background:linear-gradient(200deg,rgba(255,255,255,.55),transparent 60%)}
+.gem i:nth-child(3){width:70%;height:100%;opacity:.18;background:var(--qz);transform:rotate(12deg)}
+.gem i:nth-child(4){width:100%;height:100%;border-radius:50%;background:radial-gradient(circle,rgba(228,182,79,.35),transparent 65%);opacity:.7}
+@keyframes fl{50%{transform:translateY(-14px) rotate(2deg)}}
+#gemCanvasWrap{animation:none;overflow:hidden;border-radius:24px}
+#gemCanvasWrap canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+#gemCanvasWrap .gemGlow{position:absolute;top:50%;left:50%;width:70%;height:70%;transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(154,120,255,.32) 0%,rgba(154,120,255,.12) 40%,rgba(154,120,255,0) 70%);filter:blur(2px);animation:gbreathe 6s ease-in-out infinite;pointer-events:none}
+@keyframes gbreathe{0%,100%{opacity:.65;transform:translate(-50%,-50%) scale(.92)}50%{opacity:1;transform:translate(-50%,-50%) scale(1.05)}}
+@media(prefers-reduced-motion:reduce){#gemCanvasWrap .gemGlow{animation:none}}
+#gemCanvasWrap .gemWord{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 1rem;pointer-events:none}
+#gemCanvasWrap .gemWord h3{font-family:'Amiri',serif;font-weight:700;font-size:clamp(1.7rem,4.2vw,2.7rem);letter-spacing:.04em;line-height:1.05;background:linear-gradient(180deg,#fbf3e3 0%,var(--ct) 45%,#b98fff 100%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 40px rgba(184,143,255,.25);margin:0}
+#gemCanvasWrap .gemWord span{margin-top:10px;font-family:var(--serif);font-weight:300;font-style:italic;font-size:clamp(.8rem,1.8vw,1.05rem);letter-spacing:.12em;color:#d8c6ff;opacity:.85}
+
+.tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin:1.5rem 0 2rem}
+.tab{padding:.5rem 1.1rem;border-radius:99px;border:1px solid var(--line);background:#fff;cursor:pointer;font:500 .9rem var(--sans)}
+.tab.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1.2rem}
+.card{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;text-decoration:none;display:flex;flex-direction:column;transition:transform .3s,box-shadow .3s}
+.card:hover{transform:translateY(-4px);box-shadow:0 18px 40px -20px rgba(60,40,140,.4)}
+.card .im{aspect-ratio:1;overflow:hidden;background:#EEE9F8}
+.card img{width:100%;height:100%;object-fit:contain;transition:transform .6s}
+.card:hover img{transform:scale(1.05)}
+.card .t{padding:.9rem 1.1rem 1.2rem;display:flex;flex-direction:column;gap:.7rem;flex:1;justify-content:space-between}
+.card h3{font-size:1.25rem;line-height:1.2}
+.card .btn{text-align:center;padding:.65rem 1rem;font-size:.85rem}
+
+/* pencil pendant featured */
+.pencil{background:linear-gradient(180deg,#fff,#F7F1FF)}
+.pencil .wrap{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;align-items:center}
+.pstage{position:relative;background:#EEE9F8;border-radius:22px;padding:3rem;display:flex;align-items:center;justify-content:center;min-height:340px}
+.pstage img{max-width:70%;max-height:300px;object-fit:contain;filter:drop-shadow(0 20px 26px rgba(23,19,46,.18));transition:opacity .25s}
+.pinfo .stone{color:var(--am);font-weight:700;margin:.3rem 0 1rem}
+.pspec{display:flex;gap:1.2rem;font-size:.82rem;color:var(--mu);padding-bottom:1.2rem;border-bottom:1px solid var(--line);margin-bottom:1.2rem;flex-wrap:wrap}
+.pdesc{color:var(--mu);margin-bottom:1.4rem;max-width:52ch}
+.swrow p{font:600 .74rem var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--mu);margin-bottom:.7rem}
+.swatches{display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:1.6rem}
+.sw{width:52px;height:52px;border-radius:50%;padding:2px;background:#fff;border:2px solid transparent;cursor:pointer;transition:border-color .2s,transform .2s}
+.sw img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.sw:hover{transform:translateY(-2px)}
+.sw.on{border-color:var(--am)}
+
+/* zodiac */
+.zodiac{background:var(--ink);color:#fff}
+.zodiac .lead{color:#bdb5e2}
+.signs{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:1rem;margin-top:2.2rem}
+.sign{aspect-ratio:3/4;border-radius:6px 14px 14px 6px;border:0;border-left:8px solid var(--ct);background:linear-gradient(160deg,#33297a,#231b52);color:#fff;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.4rem;font:600 1.3rem var(--serif);box-shadow:4px 6px 0 rgba(0,0,0,.25);transition:transform .35s cubic-bezier(.3,1.4,.5,1)}
+.sign:hover{transform:perspective(600px) rotateY(-14deg) translateY(-4px)}
+.sign b{font-size:2.6rem;color:var(--ct);font-weight:400;line-height:1}
+.sign small{font:500 .72rem var(--sans);color:#bdb5e2}
+
+/* zodiac book overlay */
+.zbwrap{position:fixed;inset:0;z-index:200;display:none;background:rgba(10,8,24,.88);align-items:center;justify-content:center;padding:14px;padding-top:calc(14px + env(safe-area-inset-top,0px));padding-bottom:calc(14px + env(safe-area-inset-bottom,0px))}
+.zbwrap.on{display:flex}
+.zbclose{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));right:16px;z-index:9;width:38px;height:38px;border-radius:50%;border:1px solid rgba(228,182,79,.5);background:rgba(0,0,0,.3);color:var(--ct);font-size:19px;cursor:pointer}
+.zbcover{position:relative;width:100%;max-width:560px;max-height:88vh;display:flex;flex-direction:column;align-items:center}
+.zbstage{position:relative;width:100%;flex:1 1 auto;min-height:0;padding:10px;border-radius:16px;background:linear-gradient(135deg,#3b2c8f,#1a1445 55%,#100a2c);box-shadow:0 26px 40px -14px rgba(0,0,0,.6),inset 0 0 0 2px rgba(228,182,79,.55),inset 0 0 18px rgba(0,0,0,.5)}
+.zbinner{position:relative;width:100%;height:420px;perspective:1400px}
+.zleaf{position:absolute;inset:0;border-radius:10px;background:#FBF8F1;color:var(--ink);padding:clamp(16px,3.6vw,26px);display:none;flex-direction:column;overflow-y:auto;box-shadow:0 0 0 1px #DDD1AE}
+.zleaf.active{display:flex}
+.zleaf h2{text-align:center;font-family:var(--serif);font-size:clamp(1.5rem,4.4vw,2.1rem);color:#4a3a13}
+.zleaf .zglyph{text-align:center;font-size:2.1rem;color:var(--am)}
+.zleaf .ztag{text-align:center;font-style:italic;font-family:var(--serif);color:#8a5a00;margin-bottom:.4rem}
+.zleaf h3{font-size:.85rem;letter-spacing:.04em;color:#8a5a00;margin:.7rem 0 .25rem;font-family:var(--sans);font-weight:700;text-transform:uppercase}
+.zleaf ul{padding-left:1.1rem;font-size:.92rem;line-height:1.5}
+.zleaf p{font-size:.92rem;line-height:1.55;color:#4a4038}
+.zleaf .zaff{margin-top:auto;padding-top:.7rem;text-align:center;font-style:italic;color:#8a5a00;font-size:.85rem}
+.ztags{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.4rem}
+.ztags span{font-size:.78rem;padding:.3rem .7rem;border-radius:99px;background:#EAD9A8;color:#5a3f08}
+.zrow b{color:#4a3a13}.zrow i{color:#8a5a00;font-size:.93em}
+.zdots{display:flex;gap:6px;margin-top:.7rem;justify-content:center}
+.zdots span{width:6px;height:6px;border-radius:50%;background:rgba(228,182,79,.35)}
+.zdots span.on{background:var(--ct);box-shadow:0 0 6px var(--ct)}
+.znav{display:flex;justify-content:center;gap:.6rem;margin-top:.6rem}
+.zbtn{padding:.6rem 1.3rem;border:none;border-radius:99px;background:var(--ct);color:#3a2a05;font:700 .82rem var(--sans);cursor:pointer}
+.zbtn.ghost{background:transparent;color:var(--ct);border:1px solid rgba(228,182,79,.5)}
+.zleaf.outF,.zleaf.outB,.zleaf.inF,.zleaf.inB{display:flex}
+.zleaf.outF{animation:zcF .6s cubic-bezier(.45,0,.2,1) forwards;z-index:3}
+.zleaf.outB{animation:zcB .6s cubic-bezier(.45,0,.2,1) forwards;z-index:3}
+.zleaf.inF,.zleaf.inB{z-index:1}
+@keyframes zcF{0%{clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}30%{clip-path:polygon(0 0,78% 0,88% 100%,0 100%)}65%{clip-path:polygon(0 0,38% 0,54% 100%,0 100%)}100%{clip-path:polygon(0 0,0 0,4% 100%,0 100%)}}
+@keyframes zcB{0%{clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}30%{clip-path:polygon(22% 0,100% 0,100% 100%,12% 100%)}65%{clip-path:polygon(62% 0,100% 0,100% 100%,46% 100%)}100%{clip-path:polygon(96% 0,100% 0,100% 100%,100% 100%)}}
+@media(prefers-reduced-motion:reduce){.zleaf.outF,.zleaf.outB{animation:none;opacity:0}}
+
+.stories{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem;margin-top:2rem}
+.story{background:#fff;border:1px solid var(--line);border-radius:18px;padding:1.5rem}
+.story h3{font-size:1.6rem}
+.story em{display:block;color:var(--am);font:italic 500 1.05rem var(--serif);margin-bottom:.6rem}
+.story p{font-size:.93rem;color:var(--mu)}.story p b{color:var(--ink)}
+.intent{background:#fff}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-top:2rem}
+.tile{border-left:3px solid var(--ct);padding:.2rem 0 .2rem 1rem}
+.tile h3{font-size:1.4rem}.tile small{color:var(--am);font-weight:700}.tile p{font-size:.92rem;color:var(--mu)}
+.rating{display:flex;align-items:baseline;gap:.8rem;margin:1.4rem 0 2rem}
+.rating b{font:600 4rem var(--serif);color:var(--am);line-height:1}
+.stars{color:var(--ct);letter-spacing:3px}
+.rev{background:#fff;border:1px solid var(--line);border-radius:18px;padding:1.4rem;display:flex;flex-direction:column;gap:.6rem}
+.rev small{color:var(--am);font-weight:700}
+.rev p{font-family:var(--serif);font-size:1.15rem;line-height:1.5}
+.rev span{font-size:.85rem;color:var(--mu);margin-top:auto}
+.about .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:3rem;align-items:center}
+.about .fi{max-width:360px;margin-inline:auto;filter:drop-shadow(0 20px 30px rgba(23,19,46,.3))}
+.about p+p{margin-top:1rem}
+.quote{font:italic 500 1.6rem/1.35 var(--serif);color:var(--am);margin:1rem 0}
+.values{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:2.5rem}
+.values div{background:#fff;border:1px solid var(--line);border-radius:18px;padding:1.3rem}
+.values h3{font-size:1.4rem}.values p{font-size:.92rem;color:var(--mu)}
+#view{display:none;padding:3rem 0;min-height:70vh}
+.detail{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;align-items:start}
+.detail .im{border-radius:20px;overflow:hidden;background:#EEE9F8}
+.detail .im img{width:100%}
+.back{display:inline-block;margin-bottom:1.5rem;text-decoration:none;color:var(--am);font-weight:700}
+footer{background:var(--ink);color:#cfc8ee;padding:3rem 0 2rem}
+.soc{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1.5rem 0 2rem}
+.soc a{display:flex;gap:.7rem;align-items:center;text-decoration:none;padding:.9rem 1rem;border:1px solid #3a3266;border-radius:14px}
+.soc a:hover{background:#2a2359}
+.soc svg{width:22px;height:22px;fill:var(--ct);flex:none}
+.soc small{display:block;color:#8f88b8;line-height:1.2}
+.rv{opacity:0;transform:translateY(18px);transition:.7s}.rv.in{opacity:1;transform:none}
+@media(max-width:820px){
+.burger{display:block}
+nav ul{position:absolute;top:64px;left:0;right:0;background:var(--ink);flex-direction:column;gap:0;padding:0 1.25rem;max-height:0;overflow:hidden;transition:max-height .4s,padding .4s}
+nav ul.open{max-height:420px;padding:.5rem 1.25rem 1rem}
+nav li a{display:block;padding:.7rem 0;font-size:1.05rem}
+.hero .wrap,.about .wrap,.detail,.pencil .wrap{grid-template-columns:1fr}
+.gem{height:220px;order:-1}
+.hero .btn+.btn{margin:.6rem 0 0}
+.grid{grid-template-columns:repeat(2,1fr);gap:.8rem}.card h3{font-size:1.05rem}
+.zbinner{height:460px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01ms!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<div class="ticker" role="marquee" aria-label="Store highlights"><div class="track" id="tickTrack">
+<div class="tgroup"><span class="titem">💎 AAA+ AUTHENTIC CRYSTALS</span><span class="tdot"></span><span class="titem">✨ LAB TESTED REPORT AVAILABLE</span><span class="tdot"></span><span class="titem">🌙 CHOSEN WITH INTENTION</span><span class="tdot"></span><span class="titem">📦 DISPATCHED WITHIN 24 HOURS</span><span class="tdot"></span></div>
+<div class="tgroup" aria-hidden="true"><span class="titem">💎 AAA+ AUTHENTIC CRYSTALS</span><span class="tdot"></span><span class="titem">✨ LAB TESTED REPORT AVAILABLE</span><span class="tdot"></span><span class="titem">🌙 CHOSEN WITH INTENTION</span><span class="tdot"></span><span class="titem">📦 DISPATCHED WITHIN 24 HOURS</span><span class="tdot"></span></div>
+</div></div>
+
+<header><div class="wrap nav">
+<a class="brand" href="#/" aria-label="Tattva Crystal home"><img src="https://i.ibb.co/8gXZSJ0S/TATTVA-website-logo-transparent.png" alt="Tattva Crystal"></a>
+<nav aria-label="Main"><ul id="menu">
+<li><a href="#/">Home</a></li><li><a href="#shop">Shop</a></li><li><a href="#pencil">Pencil Pendant</a></li><li><a href="#zodiac">Zodiac</a></li><li><a href="#blog">Blog</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li>
+</ul></nav>
+<button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</div></header>
+
+<main id="home">
+<div class="hero"><div class="wrap">
+<div>
+<div class="badges"><span>AAA+ Authentic</span><span>Lab Tested</span><span>24hr Dispatch</span></div>
+<h1>Where authentic crystals meet your journey.</h1>
+<p>Authentic crystals for everyday life at an affordable price, chosen with intention and made for a new generation.</p>
+<a class="btn" href="#zodiac">Find your zodiac crystals</a><a class="btn ghost" href="#shop">Shop the collection</a>
+</div>
+<div class="gem" id="gemCanvasWrap" aria-hidden="true"><canvas id="tattvaSky"></canvas><div class="gemGlow"></div><div class="gemWord"><h3>Tattva Crystal</h3><span>The Essence of Energy</span></div></div>
+</div></div>
+
+<section id="shop"><div class="wrap rv">
+<h2>The collection</h2><p class="lead">Tap Interested on any piece and message us on Instagram.</p>
+<div class="tabs" id="tabs" role="tablist"></div>
+<div class="grid" id="products"></div>
+</div></section>
+
+<section id="pencil" class="pencil"><div class="wrap rv">
+<div class="pstage"><img id="pImg" src="https://i.ibb.co/wNGQ6vbg/02276e474d2ef084bfcebd413f9b9305-1.jpg" alt="Crystal Pencil Pendant"></div>
+<div class="pinfo">
+<h2>Crystal Pencil Pendant</h2>
+<div class="stone" id="pStone">Rose Quartz</div>
+<div class="pspec"><span>Length: 30–35mm</span><span>Width: 10–15mm</span><span>Pencil shape</span></div>
+<p class="pdesc" id="pDesc">A rose quartz pendant symbolising love, compassion and emotional healing, worn to attract love, foster self-love and bring harmony into relationships.</p>
+<div class="swrow"><p>Choose your stone</p><div class="swatches" id="pSwatches"></div></div>
+<a class="btn" target="_blank" rel="noopener" id="pInterest" href="">Interested — DM Us</a>
+</div>
+</div></section>
+
+<section id="zodiac" class="zodiac"><div class="wrap rv">
+<h2>Tap your zodiac sign to open your book</h2>
+<p class="lead">Each sign holds its own crystals. Open yours to see which ones match your energy.</p>
+<div class="signs" id="signs"></div>
+</div></section>
+
+<section id="blog"><div class="wrap rv">
+<h2>Crystal stories</h2><p class="lead">The history and meaning behind seven much-loved crystals.</p>
+<div class="stories" id="stories"></div>
+</div></section>
+
+<section class="intent"><div class="wrap rv">
+<h2>Bracelets and rings, worn with intention</h2><p class="lead">Six stones for wealth, fortune and inner peace.</p>
+<div class="tiles" id="tiles"></div>
+</div></section>
+
+<section id="reviews"><div class="wrap rv">
+<h2>Loved by our customers</h2>
+<div class="rating"><b>4.5</b><div><div class="stars">★★★★★</div><small>out of 5, rated by our customers</small></div></div>
+<div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr))" id="revs"></div>
+</div></section>
+
+<section id="about" class="about" style="background:#fff"><div class="wrap rv">
+<img class="fi" src="https://i.ibb.co/RTfqnHhg/file-00000000dfc481fa9cbbb0180b3fed31.png" alt="Anurag Das, founder of Tattva Crystal" loading="lazy">
+<div>
+<h2>Where spirituality meets modern expression</h2>
+<p>Founded by Anurag Das, our brand was created with a simple belief: your energy shapes your journey.</p>
+<p>We bring together the timeless beauty of natural crystals, spirituality, and modern design to create jewellery that feels meaningful, personal, and effortlessly stylish.</p>
+<p>Every crystal is chosen with intention, representing qualities such as positivity, confidence, love, protection, balance, and inner strength. Our goal is not just to create jewellery, but to create pieces that remind you of the energy you want to carry every day.</p>
+<p><b>Our vision:</b> to make spirituality feel modern, beautiful, and relevant to a new generation.</p>
+<p class="quote">Wear it as jewellery. Feel it as an intention. Carry it as your energy.</p>
+<p>Stay positive. Stay aligned. Be your own energy.<br><b>— Anurag Das, Founder</b></p>
+</div>
+</div>
+<div class="wrap values rv">
+<div><h3>Authenticity</h3><p>Carefully selected crystals with authenticity at the heart of everything we do.</p></div>
+<div><h3>Affordable luxury</h3><p>Beautiful, meaningful crystals without unnecessary luxury pricing.</p></div>
+<div><h3>Fast dispatch</h3><p>Your order is prepared and dispatched within 24 hours.</p></div>
+<div><h3>Worldwide shipping</h3><p>From Tattva to your doorstep, we ship worldwide.</p></div>
+<div><h3>Your privacy</h3><p>Your personal information is treated with care, respect and confidentiality.</p></div>
+</div></section>
+</main>
+
+<main id="view"><div class="wrap" id="viewBody"></div></main>
+
+<footer id="contact"><div class="wrap">
+<h2 style="color:#fff">Say hello</h2>
+<p>Interested in a crystal? Message us on Instagram.</p>
+<div class="soc" id="soc"></div>
+<p style="font-size:.85rem">© 2026 TATTVA CRYSTAL.COM | All Rights Reserved</p>
+</div></footer>
+
+<!-- Zodiac book overlay -->
+<div class="zbwrap" id="zbwrap" role="dialog" aria-modal="true" aria-label="Zodiac book">
+<button class="zbclose" id="zbClose">×</button>
+<div class="zbcover">
+<div class="zbstage">
+<div class="zbinner" id="zbInner">
+<div class="zleaf active" id="zl0">
+<h2 class="zsn"></h2><div class="zglyph" id="zGl"></div><div class="ztag" id="zTag"></div>
+<h3>Your Energy</h3><ul id="zStrengths"></ul>
+<h3>Guiding Thought</h3><p id="zGuide"></p>
+<div class="zaff">Every sign carries its own quiet magic.</div>
+</div>
+<div class="zleaf" id="zl1">
+<h2 class="zsn"></h2>
+<h3>Emotional Balance</h3><p class="zrow" id="zEmo"></p>
+<h3>Abundance</h3><p class="zrow" id="zFin"></p>
+<h3>Love & Connection</h3><p class="zrow" id="zRel"></p>
+<h3>Focus & Purpose</h3><p class="zrow" id="zCar"></p>
+<div class="zaff">Crystals carried with intention, one at a time.</div>
+</div>
+<div class="zleaf" id="zl2">
+<h2 class="zsn"></h2>
+<h3>Your Crystal Collection</h3><div class="ztags" id="zAll"></div>
+<p style="margin-top:.8rem">Crystals only — no bracelets or jewellery are recommended here. Browse the shop to find them as bracelets, pendants or rings.</p>
+<div class="zaff">Tap Interested on the shop to ask about any stone.</div>
+</div>
+</div>
+</div>
+<div class="zdots" id="zDots"><span class="on"></span><span></span><span></span></div>
+<div class="znav">
+<button class="zbtn ghost" id="zPrev">‹ Prev</button>
+<button class="zbtn" id="zNext">Next ›</button>
+</div>
+</div>
+</div>
+
+<script>
+const IG="https://www.instagram.com/tattva_crystal?stkn=Zmw3emxkN2syY2Zm";
+const B="https://i.ibb.co/";
+const RAW={
+"Bracelets":`GfNdXf2C/2c4ef1def41ee259026446f377f88bad.jpg|Natural Money Magnet Bracelet
+PsS35hPm/977f35d95a5c92e7571fcbd41090bbfd.jpg|Natural Pyrite Bracelet
+67RDvWqS/file-000000002f3c8211a5000b9771c8927e.png|Natural Rose Quartz Bracelet
+DHNVMJ9D/1409ecd738464d48d42f1f66b7d6dd01.jpg|Natural Green Aventurine Bracelet
+B2TPzF8D/braclet-1.jpg|Natural Yellow Tiger Eye Bracelet
+WWYktWB1/70919642-1789568371947216.jpg|Natural Amethyst Bracelet
+RGnTwx0C/112f1bc28425243b14a4454db85e2d8d.jpg|7 Chakra + Lava Bracelet
+n8PD8M6c/6e1cc71748fc73e2f6974d52a0ee9f3f.jpg|Natural Sulemani Hakik Bracelet
+xQK4Xm5/aaf65c1e572706b5115a3a4d1c0dfb31.jpg|Turquoise Bracelet
+TBV6v4Bd/7a515e0cb9f3695e9be46ac633812ae0.jpg|Citrine Bracelet
+tMSChDrN/e80c45cc067b1f249d45b9db4a166614.jpg|Natural Clear Quartz (Spatik) Bracelet
+ksjx0JHS/b2540f25dc8a377b4be45071a0937e81.jpg|Natural Black Tourmaline Bracelet
+gZRMG75d/03a1c428d26cf2554b09cc24848ab243.jpg|Natural White Howlite Bracelet
+0yg8Nx4z/35ff1519cd0f3ea7d98160d92a064986.jpg|Natural Hematite Bracelet
+nsFs612s/532d464628c51fc4563830b76cb45e67.jpg|Natural Red Jasper Bracelet
+ZphRsMry/e27945d5620eebb710f612c2d5cac1bf.jpg|Natural Green Jade Bracelet
+tw62RYGr/c8dad023018c3b1d5e88cba310c4a374.jpg|Natural Carnelian Bracelet
+nsyr1kfs/38c88af611d349bba7a680f1d40d7536.jpg|Golden Pyrite Bracelet
+whLHb6vJ/08e93c8dccfe9ecfff422cd64aeb82ff.jpg|Natural Lapis Bracelet
+wr2Htxcr/d011c107de161855758d9d3c1e3d93f2.jpg|Natural Citrine Bracelet
+27X1dTwB/6480df268e31174faa73e2b993309d62.jpg|African Turquoise Jasper Bracelet
+9HYsLvkS/48f60c7bd53892d7bb99119ab6d314f6.jpg|Gold Obsidian Bracelet
+1tzxzVqY/4c27acc601b057dcf810059ef6250ff9.jpg|Garnet Bracelet
+Xfzs2VHt/1a1ddcc431ffa1d5b0915a6be27db125.jpg|Rhodonite Bracelet
+xW2JMtZ/1dc6caa8872f4d08ba581dfd1f519b06.jpg|7 Chakra Bracelet
+0pH2Z50T/83c445fb8a14dd2f130710585cd9b013.jpg|7 Chakra Prosperity Bracelet
+PGXxh7v4/eac3769005b0a1f58534de3c2c589bca.jpg|Rudraksha Bracelet
+mFHKKqpf/35a1a2a83e42f9ea2ddf5d86e1d8ebc8.jpg|Lava Stone Bracelet
+gN75zgF/2522c39cca946c7ea9b4450046be930c.jpg|Red Tiger Eye Bracelet
+vvvbRWkS/2e5f45336131405c29b984cb6e1e5ba7.jpg|White Moonstone Bracelet
+mCBfJLd3/27751ce27295d8dfbf45f2b6127f657e.jpg|White Jade Bracelet
+VpqdBKDt/159a931c7027e5821bf10b671c1811a0.jpg|African Turquoise Bracelet
+tTTCRvVq/Copy-of-strings-4-1080x1080.png|Blue Ocean Jasper Bracelet
+1GcjdFLr/7-d6e3d5f4-4ecb-40a8-ba1b-b000904882cb-1080x1080.jpg|Pink Cat's Eye Bracelet
+Y70DcTRK/Copy-of-1688-1-1080x1080.png|Matte Black Onyx Bracelet`,
+"Pendants":`rKJ34587/IMG-5454-1080x1080.jpg|Lapis Lazuli Teardrop Pendant
+gbPtVHdR/IMG-5460-1080x1080.jpg|Amethyst Heart Pendant
+RkVv1PV5/IMG-4261-a74a6a14-2339-4a29-b225-bf8186ac2802-1080x1080.jpg|Green Aventurine Symbol Pendant
+3yjwYnwY/IMG-5448-1080x1080.jpg|Lapis Lazuli Heart Pendant
+hFj8rmZQ/IMG-5468-1080x1080.jpg|Rose Quartz Teardrop Pendant
+3Y8gTxvh/IMG-5453-1080x1080.jpg|Tiger Eye Teardrop Pendant
+B20cPymH/IMG-5474-1080x1080.jpg|Green Aventurine Teardrop Pendant
+wZ48vrvv/IMG-5471-1080x1080.jpg|Rose Quartz Heart Pendant
+vv4yWBtr/IMG-5446-1080x1080.jpg|Amethyst Teardrop Pendant
+PZbgF1Cr/IMG-5459-1080x1080.jpg|Green Aventurine Heart Pendant
+TqT4xCMX/IMG-5465-1080x1080.jpg|Tiger Eye Heart Pendant`,
+"Rings":`JFmgQJsG/1790181979727.png|CITRINE RING - THE MONEY CRYSTAL
+ZRSVmVPs/1790181954663-1.png|AMETHYST RING The STRESS KILLER CRYSTAL
+hJDnsL8z/1790182030650.png|LABRADORITE Ring - The Stone of Transformation & EMOTIONAL BALANCE
+pj4XXJmB/1790182074110.png|CLEAR QUARTZ RING - The Master healer | The Shiva Sphatik Crystal | Best for PARENTS
+23SCvLYd/1790182107294.png|ROSE QUARTZ RING- The crystal of LOVE
+pBTGW77H/1790182138251.png|LAPIS LAZULI RING- The Student's Crystal`,
+"Crystal Trees":`fVqp2DVQ/66bcedf9f4047419338f23cf80ee22b7.jpg|7 Chakra Crystal Tree`,
+"Best Sellers":`t1XQFLY/bb05d47d4177c35899fa0f1d1f6e109a.jpg|Tiger Eye Crystal Beads
+6RmyQ2L1/1028427da768b457159398593ca2873b.jpg|Clear Quartz Crystal Beads
+jkbZ3Lf0/894f06c45b666e9302207dd49c4e3e9e.jpg|Howlite Crystal Beads
+6J7NrhQ0/4f4aa23e94d6a8cea8e4019721e64672.jpg|Sodalite Crystal Beads`,
+"Pencil Pendant":`wNGQ6vbg/02276e474d2ef084bfcebd413f9b9305-1.jpg|Rose Quartz Pencil Pendant
+N27MXb9J/ea6f265d056d1fc895ebeff4b1ebab6c-1.jpg|Amethyst Pencil Pendant
+k2DZWn39/2c25eeac5e0abae593f15f2e4a77b655.jpg|Clear Quartz Pencil Pendant
+BVRRYtV0/4db154ac87cfdff23d5d29ea84a76c0d.jpg|Tiger Eye Pencil Pendant
+CKmqmpmZ/222f3702ebbea9f9c6c9ccf7bd06c051.jpg|Green Aventurine Pencil Pendant
+yBk1R2VJ/8757f00ee8fdfd74f392d769d9677da1.jpg|Lapis Lazuli Pencil Pendant`};
+const P=[];Object.keys(RAW).forEach(c=>RAW[c].split("\n").forEach(l=>{const [i,n]=l.split("|");P.push({id:P.length,cat:c,name:n,img:B+i})}));
+const CATS=Object.keys(RAW);
+
+const SIGNS=[
+["Aries","♈","Mar 21 – Apr 19","Fire","Bold, driven and quick to begin.",["Carnelian","Red Jasper","Bloodstone","Garnet"]],
+["Taurus","♉","Apr 20 – May 20","Earth","Steady, sensual and loyal.",["Rose Quartz","Emerald","Green Aventurine","Rhodonite"]],
+["Gemini","♊","May 21 – Jun 20","Air","Curious, witty and always moving.",["Citrine","Agate","Tiger's Eye","Amazonite"]],
+["Cancer","♋","Jun 21 – Jul 22","Water","Intuitive, caring and protective.",["Moonstone","Pearl","Selenite","Rose Quartz"]],
+["Leo","♌","Jul 23 – Aug 22","Fire","Radiant, generous and confident.",["Sunstone","Citrine","Amber","Tiger's Eye"]],
+["Virgo","♍","Aug 23 – Sep 22","Earth","Thoughtful, precise and grounded.",["Amazonite","Moss Agate","Clear Quartz","Green Jade"]],
+["Libra","♎","Sep 23 – Oct 22","Air","Graceful, fair and harmony-seeking.",["Rose Quartz","Lapis Lazuli","Opal","Green Aventurine"]],
+["Scorpio","♏","Oct 23 – Nov 21","Water","Intense, magnetic and deeply private.",["Obsidian","Garnet","Labradorite","Black Tourmaline"]],
+["Sagittarius","♐","Nov 22 – Dec 21","Fire","Adventurous, honest and free.",["Turquoise","Amethyst","Sodalite","Lapis Lazuli"]],
+["Capricorn","♑","Dec 22 – Jan 19","Earth","Ambitious, disciplined and patient.",["Garnet","Black Tourmaline","Smoky Quartz","Pyrite"]],
+["Aquarius","♒","Jan 20 – Feb 18","Air","Original, independent and visionary.",["Amethyst","Aquamarine","Fluorite","Clear Quartz"]],
+["Pisces","♓","Feb 19 – Mar 20","Water","Dreamy, empathic and artistic.",["Amethyst","Aquamarine","Moonstone","Rose Quartz"]]];
+
+const ELEMENT_TRAITS={
+Fire:["Bold energy that lights up any room","Natural courage to chase big dreams","Passion that inspires everyone nearby"],
+Earth:["Steady presence people lean on","Patient hands that build lasting things","Quiet strength that never wavers"],
+Air:["Quick mind full of bright ideas","Charm that makes conversation easy","Curiosity that never runs out"],
+Water:["Deep intuition that reads a room","Tender heart that others trust","Quiet resilience beneath a calm surface"]};
+
+const TIP={"Carnelian":"bold courage and drive","Red Jasper":"grounds fast energy into action","Bloodstone":"stamina and quiet resolve","Garnet":"passion and endurance","Rose Quartz":"softens the heart, invites love","Emerald":"growth and abundance","Green Aventurine":"fresh luck, gentle growth","Rhodonite":"balance and emotional healing","Citrine":"clarity, confidence and joy","Agate":"steadies a busy mind","Tiger's Eye":"grounded confidence and courage","Amazonite":"eases worry, speaks the truth","Moonstone":"intuition and emotional flow","Pearl":"graceful, soothing comfort","Selenite":"cleanses and calms a space","Sunstone":"warmth and personal power","Amber":"a golden, protective glow","Moss Agate":"patience and renewal","Clear Quartz":"sharpens focus and intention","Green Jade":"harmony and good fortune","Lapis Lazuli":"honest expression and wisdom","Opal":"heightens creativity and feeling","Obsidian":"shields and clears heavy energy","Labradorite":"transformation and intuition","Black Tourmaline":"protective and grounding","Turquoise":"a protective travel companion","Amethyst":"calm, clarity and intuition","Sodalite":"truth and perspective","Smoky Quartz":"releases tension and stress","Pyrite":"golden luck and prosperity","Aquamarine":"calm, clear communication","Fluorite":"organises ideas and focus"};
+
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const intBtn=`<a class="btn" target="_blank" rel="noopener" href="${IG}">Interested</a>`;
+
+/* nav */
+const burger=$("#burger"),menu=$("#menu");
+burger.onclick=()=>{const o=menu.classList.toggle("open");burger.classList.toggle("on",o);burger.setAttribute("aria-expanded",o)};
+menu.onclick=e=>{if(e.target.tagName==="A"){menu.classList.remove("open");burger.classList.remove("on")}};
+
+/* ticker: duplicate groups until wider than viewport */
+(function(){const track=$("#tickTrack"),first=track.querySelector(".tgroup");
+let g=0;while(first.offsetWidth*(track.children.length/2)<innerWidth&&g++<8){
+const a=first.cloneNode(true),b=first.cloneNode(true);b.setAttribute("aria-hidden","true");
+track.insertBefore(a,track.children[track.children.length/2]);track.appendChild(b);}})();
+
+/* constellation animation replacing the amethyst crystal */
+(function(){
+  const canvas=$("#tattvaSky");if(!canvas)return;
+  const ctx=canvas.getContext("2d"),wrap=$("#gemCanvasWrap");
+  let w,h,dpr,nodes=[];
+  const NODE_COUNT=48,LINK_DIST=90;
+  const reduceMotion=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function resize(){
+    dpr=Math.min(devicePixelRatio||1,2);
+    w=wrap.clientWidth;h=wrap.clientHeight;
+    canvas.width=w*dpr;canvas.height=h*dpr;
+    canvas.style.width=w+"px";canvas.style.height=h+"px";
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+  }
+  function makeNodes(){
+    nodes=[];const count=w<260?Math.round(NODE_COUNT*.55):NODE_COUNT;
+    for(let i=0;i<count;i++)nodes.push({x:Math.random()*w,y:Math.random()*h,vx:(Math.random()-.5)*.12,vy:(Math.random()-.5)*.12,r:Math.random()*1.4+.6,tw:Math.random()*Math.PI*2});
+  }
+  function step(){
+    ctx.clearRect(0,0,w,h);
+    for(const n of nodes){n.x+=n.vx;n.y+=n.vy;if(n.x<0)n.x=w;if(n.x>w)n.x=0;if(n.y<0)n.y=h;if(n.y>h)n.y=0;n.tw+=.02}
+    for(let a=0;a<nodes.length;a++)for(let b=a+1;b<nodes.length;b++){
+      const dx=nodes[a].x-nodes[b].x,dy=nodes[a].y-nodes[b].y,dist=Math.sqrt(dx*dx+dy*dy);
+      if(dist<LINK_DIST){const al=(1-dist/LINK_DIST)*.35;ctx.strokeStyle=`rgba(154,120,255,${al.toFixed(3)})`;ctx.lineWidth=.6;ctx.beginPath();ctx.moveTo(nodes[a].x,nodes[a].y);ctx.lineTo(nodes[b].x,nodes[b].y);ctx.stroke()}
+    }
+    for(const n of nodes){const fl=.55+Math.sin(n.tw)*.35;ctx.beginPath();ctx.arc(n.x,n.y,n.r,0,Math.PI*2);ctx.fillStyle=`rgba(224,210,255,${fl.toFixed(3)})`;ctx.fill()}
+    if(!reduceMotion)requestAnimationFrame(step);
+  }
+  function init(){resize();makeNodes();step()}
+  addEventListener("resize",()=>{resize();makeNodes();if(reduceMotion)step()});
+  init();
+})();
+
+/* shop */
+let cat="Bracelets";
+const card=p=>`<div class="card"><a href="#/product/${p.id}" style="text-decoration:none"><div class="im"><img src="${p.img}" alt="${esc(p.name)}" loading="lazy"></div></a><div class="t"><a href="#/product/${p.id}" style="text-decoration:none"><h3>${esc(p.name)}</h3></a>${intBtn}</div></div>`;
+function shop(){
+  $("#tabs").innerHTML=CATS.map(c=>`<button class="tab${c===cat?" on":""}" data-c="${c}">${c}</button>`).join("");
+  $("#products").innerHTML=P.filter(p=>p.cat===cat).map(card).join("");
+}
+$("#tabs").onclick=e=>{const b=e.target.closest("[data-c]");if(b){cat=b.dataset.c;shop()}};
+
+/* crystal pencil pendant */
+const PENCIL=[
+["Rose Quartz","https://i.ibb.co/wNGQ6vbg/02276e474d2ef084bfcebd413f9b9305-1.jpg","A rose quartz pendant symbolising love, compassion and emotional healing — worn to attract love, foster self-love and bring harmony into relationships. Its soft pink hue carries a soothing, gentle energy."],
+["Amethyst","https://i.ibb.co/N27MXb9J/ea6f265d056d1fc895ebeff4b1ebab6c-1.jpg","An amethyst pendant in striking violet quartz, prized for tranquility and clarity — believed to relieve stress, aid meditation and promote restful sleep while enhancing intuition and emotional healing."],
+["Clear Quartz","https://i.ibb.co/k2DZWn39/2c25eeac5e0abae593f15f2e4a77b655.jpg","Known as the master healer, clear quartz is celebrated for its crystal clarity — worn to sharpen focus, amplify intention and encourage a heightened sense of awareness."],
+["Tiger Eye","https://i.ibb.co/BVRRYtV0/4db154ac87cfdff23d5d29ea84a76c0d.jpg","A tiger eye pendant with striking golden-brown bands, associated with protection, grounding and clarity — believed to enhance courage, balance emotion and attract good fortune."],
+["Green Aventurine","https://i.ibb.co/CKmqmpmZ/222f3702ebbea9f9c6c9ccf7bd06c051.jpg","A green aventurine pendant known for its calming, soothing nature — linked to luck, prosperity and growth, with a gentle green tone that promotes emotional balance and peace."],
+["Lapis Lazuli","https://i.ibb.co/yBk1R2VJ/8757f00ee8fdfd74f392d769d9677da1.jpg","A lapis lazuli pendant with deep blue tones and golden flecks of pyrite — associated with wisdom, truth and self-expression, prized for enhancing communication and inner peace."]];
+$("#pSwatches").innerHTML=PENCIL.map((s,i)=>`<button class="sw${i===0?" on":""}" data-i="${i}" aria-label="${s[0]}"><img src="${s[1]}" alt="${s[0]}"></button>`).join("");
+function setPencil(i){
+  const s=PENCIL[i];
+  $("#pImg").style.opacity=0;
+  setTimeout(()=>{$("#pImg").src=s[1];$("#pStone").textContent=s[0];$("#pDesc").textContent=s[2];$("#pImg").style.opacity=1},150);
+  document.querySelectorAll(".sw").forEach((el,j)=>el.classList.toggle("on",j===i));
+}
+$("#pSwatches").onclick=e=>{const b=e.target.closest(".sw");if(b)setPencil(+b.dataset.i)};
+$("#pInterest").href=IG;
+
+/* stories / tiles / reviews (unchanged content) */
+const STORIES=[
+["Amethyst","The Stone of the Third Eye","Ancient Greeks believed it protected against intoxication; its name means \"not drunk.\"","Treasured for calm and clarity, and kept by many near the bed for peaceful sleep."],
+["Rose Quartz","The Stone of Unconditional Love","Rose quartz jewellery has been traced back over 7,000 years, to Mesopotamia and Egypt.","Known as the crystal of the heart, carried for self-love and compassion."],
+["Clear Quartz","The Master Healer","Many ancient cultures saw it as frozen, eternal light.","Prized for amplifying energy and intention, and for sharpening focus."],
+["Citrine","The Merchant's Stone","Ancient traders carried it as a talisman for prosperity.","Linked to confidence, joy and success, and often kept near a workspace."],
+["Black Tourmaline","The Guardian Stone","Used for centuries across Africa and Brazil as a talisman against negative forces.","Kept by the door or in a pocket for a feeling of protection and grounding."],
+["Selenite","Liquid Moonlight","Named after Selene, Greek goddess of the moon, and once used as window panes in medieval churches.","Famous for cleansing: many pass other crystals over a selenite wand."],
+["Tiger's Eye","The Stone of Courage","Roman soldiers carried it into battle for courage and protection.","Worn for willpower and grounded confidence before big decisions."]];
+const TILES=[
+["Citrine","Wealth","Worn as a symbol of abundance, linked to prosperity and quiet confidence."],
+["Pyrite","Prosperity","Worn for prosperity and protection over one's resources."],
+["Green Aventurine","Opportunity","The stone of opportunity, tied to luck, fresh starts and steady growth."],
+["Jade","Fortune","Worn for harmony and quiet wealth: abundance without excess."],
+["Amethyst","Inner peace","Worn for stillness, to quiet the mind and settle the spirit."],
+["Tiger's Eye","Grounded calm","Steadies the nerves before big decisions and guards one's resources."]];
+const REVS=[
+["Ananya Sharma","Mumbai","Crystal Bracelet",5,"Beautiful bracelet and the finishing is even better than I expected. The packaging felt premium and everything arrived safely."],
+["Rohan Mehta","Delhi","Crystal Tree",4,"I ordered a crystal tree for my home. It looks gorgeous on my desk and was packed with great care. The whole buying experience was smooth."],
+["Priya Nair","Bengaluru","Gemstone Ring",5,"The ring is elegant and beautifully made. I especially loved the attention to detail. It feels like a very thoughtfully curated product."],
+["Sneha Kapoor","Kolkata","Crystal Pendant",4,"Very classy pendant and the crystal looks beautiful in natural light. Customer support was also polite and helpful throughout my order."],
+["Kavya Iyer","Chennai","Crystal Bracelet",4,"Loved the overall experience. The bracelet was exactly as shown and the presentation was beautiful. Delivery was also quick."],
+["Vikram Singh","Jaipur","Customer Service",5,"What impressed me most was the service. My questions were answered patiently and the order was packed beautifully. Would definitely shop again."],
+["Meera Joshi","Pune","Crystal Tree",5,"The tree is stunning and looks wonderful in my living room. The crystals catch the light beautifully. Packaging was excellent too."],
+["Neha Agarwal","Ahmedabad","Gemstone Pendant",4,"Simple, elegant and beautifully presented. I bought the pendant as a gift and the recipient absolutely loved it."],
+["Dev Malhotra","Hyderabad","Crystal Ring",5,"The ring has a very refined look and the crystal is beautiful. The entire presentation gives the brand a premium feel."]];
+$("#stories").innerHTML=STORIES.map(s=>`<article class="story"><h3>${s[0]}</h3><em>${s[1]}</em><p><b>History.</b> ${s[2]}</p><p style="margin-top:.5rem"><b>Spiritual benefits.</b> ${s[3]}</p></article>`).join("");
+$("#tiles").innerHTML=TILES.map(t=>`<div class="tile"><small>${t[1]}</small><h3>${t[0]}</h3><p>${t[2]}</p></div>`).join("");
+$("#revs").innerHTML=REVS.map(r=>`<article class="rev"><small>${r[2]}</small><div class="stars">${"★".repeat(r[3])}${"☆".repeat(5-r[3])}</div><p>${r[4]}</p><span>${r[0]}, ${r[1]}</span></article>`).join("");
+
+/* zodiac wheel */
+$("#signs").innerHTML=SIGNS.map((s,i)=>`<button class="sign" data-i="${i}" aria-label="Open ${s[0]} book"><b>${s[1]}</b>${s[0]}<small>${s[2]}</small></button>`).join("");
+
+/* zodiac book overlay logic */
+let zLeaves,zIdx=0,zTurning=false,zAc;
+const zbwrap=$("#zbwrap");
+function openZBook(i){
+  const s=SIGNS[i],[name,glyph,,elem,,crys]=s;
+  document.querySelectorAll(".zsn").forEach(e=>e.textContent=name);
+  $("#zGl").textContent=glyph;
+  $("#zTag").textContent=elem+" sign";
+  $("#zStrengths").innerHTML=ELEMENT_TRAITS[elem].map(x=>`<li>${x}</li>`).join("");
+  $("#zGuide").textContent=s[4];
+  const f=["zEmo","zFin","zRel","zCar"];
+  f.forEach((id,j)=>{const c=crys[j%crys.length];$("#"+id).innerHTML=`<b>${c}</b> — <i>${TIP[c]||""}</i>`});
+  $("#zAll").innerHTML=crys.map(c=>`<span>${c}</span>`).join("");
+  zLeaves=[$("#zl0"),$("#zl1"),$("#zl2")];
+  zLeaves.forEach((l,j)=>l.classList.toggle("active",j===0));
+  zIdx=0;updateZNav();
+  zbwrap.classList.add("on");
+  zCoverSound();
+}
+function updateZNav(){
+  document.querySelectorAll("#zDots span").forEach((d,i)=>d.classList.toggle("on",i===zIdx));
+  $("#zPrev").textContent=zIdx===0?"Close":"‹ Prev";
+  $("#zNext").textContent=zIdx===2?"Close Book":"Next ›";
+}
+function zGoto(dir){
+  if(zTurning)return;
+  const next=zIdx+dir;
+  if(next<0||next>2){closeZBook();return}
+  zTurning=true;zFlipSound();
+  const cur=zLeaves[zIdx],nxt=zLeaves[next];
+  const outCls=dir>0?"outF":"outB",inCls=dir>0?"inF":"inB";
+  cur.classList.add(outCls);nxt.classList.add("active",inCls);
+  setTimeout(()=>{cur.classList.remove("active",outCls);nxt.classList.remove(inCls);zIdx=next;zTurning=false;updateZNav()},600);
+}
+function closeZBook(){zbwrap.classList.remove("on")}
+$("#signs").onclick=e=>{const b=e.target.closest(".sign");if(b)openZBook(+b.dataset.i)};
+$("#zbClose").onclick=closeZBook;
+$("#zNext").onclick=()=>zGoto(1);
+$("#zPrev").onclick=()=>zGoto(-1);
+zbwrap.addEventListener("click",e=>{if(e.target===zbwrap)closeZBook()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&zbwrap.classList.contains("on"))closeZBook()});
+function zNoise(t,dur,f0,f1,peak){
+  const len=Math.floor(zAc.sampleRate*dur),buf=zAc.createBuffer(1,len,zAc.sampleRate),d=buf.getChannelData(0);
+  for(let i=0;i<len;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/len,1.4);
+  const n=zAc.createBufferSource();n.buffer=buf;
+  const flt=zAc.createBiquadFilter();flt.type="bandpass";flt.Q.value=.9;
+  flt.frequency.setValueAtTime(f0,t);flt.frequency.exponentialRampToValueAtTime(f1,t+dur*.7);
+  const g=zAc.createGain();g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(peak,t+dur*.25);
+  g.gain.exponentialRampToValueAtTime(.0001,t+dur);
+  n.connect(flt);flt.connect(g);g.connect(zAc.destination);n.start(t);
+}
+function zFlipSound(){try{zAc=zAc||new (window.AudioContext||window.webkitAudioContext)();const t=zAc.currentTime;zNoise(t,.28,900,2600,.2);zNoise(t+.16,.16,1400,700,.11)}catch(e){}}
+function zCoverSound(){try{zAc=zAc||new (window.AudioContext||window.webkitAudioContext)();const t=zAc.currentTime;zNoise(t,.4,500,2200,.16);zNoise(t+.22,.22,1200,500,.12)}catch(e){}}
+
+/* product page routing */
+function route(){
+  const m=location.hash.match(/^#\/product\/(\d+)$/),home=$("#home"),view=$("#view");
+  if(!m){home.style.display="";view.style.display="none";document.title="Tattva Crystal | Authentic Crystals, Zodiac Guides & Spiritual Jewellery";return}
+  const p=P[+m[1]];home.style.display="none";view.style.display="block";window.scrollTo(0,0);
+  if(!p){$("#viewBody").innerHTML=`<a class="back" href="#shop">← Back to shop</a><p>Product not found.</p>`;return}
+  document.title=p.name+" | Tattva Crystal";
+  const rel=P.filter(x=>x.cat===p.cat&&x.id!==p.id).slice(0,4);
+  $("#viewBody").innerHTML=`<a class="back" href="#shop">← Back to shop</a><div class="detail"><div class="im"><img src="${p.img}" alt="${esc(p.name)}"></div><div><h1 style="font-size:clamp(2rem,5vw,3.2rem)">${esc(p.name)}</h1><p class="meta" style="margin:.5rem 0 1.2rem;color:var(--mu)">${p.cat}</p><p class="lead">Authentic crystal, chosen with intention. Message us on Instagram to ask about this piece.</p><div style="margin-top:1.5rem">${intBtn}</div></div></div>${rel.length?`<h2 style="margin-top:4rem">You may also like</h2><div class="grid">${rel.map(card).join("")}</div>`:""}`;
+}
+addEventListener("hashchange",route);
+
+/* social */
+const ic={ig:"M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 5a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm5.5-3a1 1 0 100 2 1 1 0 000-2z",fb:"M13 22v-8h3l.5-4H13V8c0-1 .3-2 2-2h1.6V2.4C16.3 2.3 15.3 2 14 2c-3 0-5 1.8-5 5.1V10H6v4h3v8z"};
+$("#soc").innerHTML=[["ig","Tattva Crystal","Instagram",IG],["fb","Tattva Crystal","Facebook","https://www.facebook.com/share/1RiY5uS3ab/"],["ig","Anurag Das (Owner)","Instagram","https://www.instagram.com/the_anuragdas?stkn=eGQ5dno1YWQwd3d1"],["fb","Anurag Das (Owner)","Facebook","https://www.facebook.com/share/19bexmhJtS/"]].map(s=>`<a href="${s[3]}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="${ic[s[0]]}"/></svg><span>${s[1]}<small>${s[2]}</small></span></a>`).join("");
+
+/* scroll reveal */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.08});
+document.querySelectorAll(".rv").forEach(el=>io.observe(el));
+shop();route();
+</script>
+</body>
+</html>
